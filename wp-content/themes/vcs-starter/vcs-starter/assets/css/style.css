@@ -537,29 +537,35 @@ figure {
     Footer
 ----------------------------------------------------------------*/
 
+
 .footer{
-        width: 100%;
+ 
+   max-width: 960px;
+ background-color: black; 
+    padding: 0;
+   text-align: center;
 }
 
-footercontainer{
-     margin: 0 auto;
-    padding: 70px 0;
-   max-width: 960px;
-}
 .columnfooter .h4 .ul{
- 
+color: white;
 }
 
 .rowfooter .li {
- 
+    color: aliceblue;
 }
 
 /* Create four equal columns that floats next to each other */
 .footer .columnfooter {
- 
+
+    float: left;
+    padding: 10px;
+background-color: darkgray;
 }
 
 /* Clear floats after the columns */
 .footer .rowfooter:after {
- 
+    content: "";
+    display: table;
+    clear: both;
+    background-color: darkgray;
 }
